@@ -1,0 +1,34 @@
+.container {
+  background-color: #086394 !important;
+}
+
+.subtitle {
+  text-transform: capitalize !important;
+}
+
+.celcius {
+  font-size: 3rem;
+}
+
+.sup {
+  font-size: 2rem;
+}
+
+.rainy {
+  background-image: url(./img/rain.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sunny {
+  background-image: url(./img/claer.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.snowing {
+  background-image: url(./img/snowing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
