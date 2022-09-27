@@ -111,10 +111,10 @@ const renderCountryWeather = (data) => {
 
 const container = document.querySelector(".container");
 
-container.addEventListener("keydown", (e) => {
+container.addEventListener("click", (e) => {
   const cityName = document.querySelector("#city-name");
   if (cityName.value != "") {
-    if (e.keyCode == 13) {
+    if (e.target.classList.contains("btn")) {
       fetchCountryWeather(cityName.value);
       cityName.value = "";
     }
